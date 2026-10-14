@@ -12,7 +12,7 @@ Fazil Samples brings sample deadlines, fabric and accessory readiness, approved 
 
 ## The business problem
 
-Sample preparation depends on several people and prerequisites: materials must arrive, instructions must be current, the sample room must complete the work, and the account team must confirm receipt. A due date alone does not show which of these steps is blocking delivery.
+Sample preparation depends on several people and prerequisites: materials must arrive, instructions must be current, the sample room must complete the work, and the account team must confirm receipt. A due date alone does not show which of these steps is blocking delivery. This software improves operations and human error internally, a common problem Fazil & Co have been dealing with. I was outsourced to build this software.
 
 The project aims to make those dependencies visible in one record, with clear ownership and a consistent deadline view across factory laptops.
 
