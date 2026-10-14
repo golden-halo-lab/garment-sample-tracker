@@ -25,7 +25,7 @@ The project aims to make those dependencies visible in one record, with clear ow
 - Wrote automated tests covering deadline calculations, permissions, sample workflows and data persistence.
 - Prepared the application for shared deployment and coordinated with factory IT on the Windows VM pilot.
 
-**AI-assisted development:** AI coding tools supported implementation and testing. My contribution focused on requirements, product decisions and coordination with factory IT.
+**AI-assisted development:** AI coding tools supported implementation and testing.
 
 ## What the prototype does
 
