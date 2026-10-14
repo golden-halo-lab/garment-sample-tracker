@@ -18,10 +18,12 @@ The project aims to make those dependencies visible in one record, with clear ow
 
 ## My contribution
 
-- Defined the initial product requirements around materials, deadlines and red/amber/green status flags.
-- Used AI-assisted development to turn those requirements into a working desktop and browser prototype.
-- Shaped the interface and workflow through iteration, including the application identity and intro animation.
-- Coordinated with factory IT on a separate Windows VM environment and remote access for the pilot.
+- Designed and developed the Node.js backend and SQLite database to centralise sample records, material requirements and deadlines.
+- Built the Electron desktop application and JavaScript interface, including the sampling dashboard, material tracking and automated deadline flags.
+- Implemented authentication and permissions for four user roles, with server-side validation and protected sessions.
+- Developed specification revision tracking, acknowledgement workflows, audit history and live updates, with safeguards against conflicting edits.
+- Wrote automated tests covering deadline calculations, permissions, sample workflows and data persistence.
+- Prepared the application for shared deployment and coordinated with factory IT on the Windows VM pilot.
 
 **AI-assisted development:** AI coding tools supported implementation and testing. My contribution focused on requirements, product decisions and coordination with factory IT.
 
