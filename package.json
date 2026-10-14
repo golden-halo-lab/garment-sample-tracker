@@ -1,0 +1,30 @@
+{
+  "name": "fazil-sample-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fazil & Co shared garment sample tracker — first draft",
+  "author": "Fazil & Co",
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "engines": {"node": ">=24 <25"},
+  "scripts": {
+    "start": "node server.mjs",
+    "demo": "node server.mjs --demo",
+    "desktop": "electron .",
+    "test": "node --test test/*.test.mjs",
+    "build:win": "electron-builder --win nsis --x64",
+    "build:win:folder": "electron-builder --win dir --x64",
+    "build:win:zip": "electron-builder --win zip --x64",
+    "build:mac": "electron-builder --config electron-builder-mac.cjs --mac zip --arm64 --x64"
+  },
+  "devDependencies": {"electron": "44.7.0", "electron-builder": "26.15.3"},
+  "build": {
+    "appId": "com.fazilandco.samples",
+    "productName": "Fazil Samples",
+    "asar": true,
+    "files": ["desktop/**", "public/**", "server.mjs", "domain.mjs", "package.json"],
+    "directories": {"output": "dist"},
+    "win": {"target": "nsis", "icon": "public/assets/icon.ico", "signAndEditExecutable": true, "signExecutable": false},
+    "nsis": {"oneClick": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true}
+  }
+}
